@@ -9,13 +9,13 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        /* Alinhado à landing (styles.css --primary-blue / gradientes) */
-        "of-blue": "#00b8ff",
-        "of-blue-deep": "#0095d4",
+        /* Alinhado à landing do Privacy (gradient laranja → rosa) */
+        "of-blue": "#f97316",
+        "of-blue-deep": "#ec4899",
         "of-navy": "#0f172a",
         "of-muted": "#64748b",
-        "of-hint": "#e0f2fe",
-        "of-hint-border": "#bae6fd",
+        "of-hint": "#fff7ed",
+        "of-hint-border": "#fed7aa",
       },
     },
   },
