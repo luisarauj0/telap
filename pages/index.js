@@ -174,8 +174,8 @@ export default function Home() {
           <div className="mt-3">
             <h6 className="text-lg font-bold text-gray-800 mb-2">Assinaturas</h6>
 
-            <button onClick={() => handlePayment(26.90, 'Vitalício + chamada de vídeo', 'plano-vitalicio')} className="w-full subscription-gradient text-black py-4 px-6 rounded-2xl font-medium transition-all mb-2 flex justify-between items-center shadow-sm">
-              <span>Vitalício + chamada de vídeo</span>
+            <button onClick={() => handlePayment(26.90, 'Vitalício', 'plano-vitalicio')} className="w-full subscription-gradient text-black py-4 px-6 rounded-2xl font-medium transition-all mb-2 flex justify-between items-center shadow-sm">
+              <span>Vitalício</span>
               <span>R$ 26,90</span>
             </button>
 
