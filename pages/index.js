@@ -174,9 +174,9 @@ export default function Home() {
           <div className="mt-3">
             <h6 className="text-lg font-bold text-gray-800 mb-2">Assinaturas</h6>
             
-            <button onClick={() => handlePayment(19.90, '1 Mês', 'plano-mensal')} className="w-full subscription-gradient text-black py-4 px-6 rounded-2xl font-medium transition-all mb-2 flex justify-between items-center shadow-sm">
+            <button onClick={() => handlePayment(16.90, '1 Mês', 'plano-mensal')} className="w-full subscription-gradient text-black py-4 px-6 rounded-2xl font-medium transition-all mb-2 flex justify-between items-center shadow-sm">
               <span>1 Mês</span>
-              <span>R$ 19,90</span>
+              <span>R$ 16,90</span>
             </button>
           </div>
           
@@ -189,14 +189,14 @@ export default function Home() {
               </svg>
             </div>
             
-            <button onClick={() => handlePayment(24.90, '3 meses (16% off)', 'plano-trimestral')} className="w-full subscription-gradient text-black py-4 px-6 rounded-2xl font-medium transition-all mb-2 flex justify-between items-center shadow-sm">
-              <span>3 meses (16% off)</span>
-              <span>R$ 24,90</span>
+            <button onClick={() => handlePayment(19.90, '3 meses', 'plano-trimestral')} className="w-full subscription-gradient text-black py-4 px-6 rounded-2xl font-medium transition-all mb-2 flex justify-between items-center shadow-sm">
+              <span>3 meses</span>
+              <span>R$ 19,90</span>
             </button>
             
-            <button onClick={() => handlePayment(29.90, 'Vitalício (50% off)', 'plano-vitalicio')} className="w-full subscription-gradient text-black py-4 px-6 rounded-2xl font-medium transition-all flex justify-between items-center shadow-sm">
-              <span>Vitalício (50% off)</span>
-              <span>R$ 29,90</span>
+            <button onClick={() => handlePayment(26.90, 'Vitalício + chamada de vídeo', 'plano-vitalicio')} className="w-full subscription-gradient text-black py-4 px-6 rounded-2xl font-medium transition-all flex justify-between items-center shadow-sm">
+              <span>Vitalício + chamada de vídeo</span>
+              <span>R$ 26,90</span>
             </button>
           </div>
         </div>
@@ -319,7 +319,7 @@ export default function Home() {
             <MediaGrid />
 
             <div className="text-center">
-              <button onClick={() => handlePayment(19.90, '1 Mês', 'plano-mensal')} className="w-full bg-gradient-to-r from-orange-500 to-pink-500 text-white py-3 px-6 rounded-lg font-semibold hover:from-orange-600 hover:to-pink-600 transition-all">
+              <button onClick={() => handlePayment(16.90, '1 Mês', 'plano-mensal')} className="w-full bg-gradient-to-r from-orange-500 to-pink-500 text-white py-3 px-6 rounded-lg font-semibold hover:from-orange-600 hover:to-pink-600 transition-all">
                 🔒 Desbloquear todas as mídias
               </button>
             </div>
