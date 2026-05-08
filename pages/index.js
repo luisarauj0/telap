@@ -179,11 +179,6 @@ export default function Home() {
               <span>R$ 26,90</span>
             </button>
 
-            <button onClick={() => handlePayment(16.90, '1 Mês', 'plano-mensal')} className="w-full subscription-gradient text-black py-4 px-6 rounded-2xl font-medium transition-all mb-2 flex justify-between items-center shadow-sm">
-              <span>1 Mês</span>
-              <span>R$ 16,90</span>
-            </button>
-
             <div className="w-full bg-orange-200 text-black py-3 px-6 rounded-2xl font-semibold text-center text-sm tracking-wide">
               + CHAMADA DE VÍDEO COMIGO HOJE!
             </div>
@@ -197,6 +192,11 @@ export default function Home() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 15l7-7 7 7"></path>
               </svg>
             </div>
+
+            <button onClick={() => handlePayment(16.90, '1 Mês', 'plano-mensal')} className="w-full subscription-gradient text-black py-4 px-6 rounded-2xl font-medium transition-all mb-2 flex justify-between items-center shadow-sm">
+              <span>1 Mês</span>
+              <span>R$ 16,90</span>
+            </button>
 
             <button onClick={() => handlePayment(19.90, '3 meses', 'plano-trimestral')} className="w-full subscription-gradient text-black py-4 px-6 rounded-2xl font-medium transition-all flex justify-between items-center shadow-sm">
               <span>3 meses</span>
